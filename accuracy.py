@@ -41,7 +41,6 @@ if find_best_split(r1, r2)[1] == True:
 else:
     print('Линейно не разделимы')
 print(f'Точка - {find_best_split(r1, r2)[0]}')
-print(f'accuracy - {find_best_split(r1, r2)[1]}')
-
+print(f'accuracy - {find_best_split(r1, r2)[1]: .3f}')
 
 
