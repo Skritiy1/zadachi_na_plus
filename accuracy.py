@@ -4,10 +4,11 @@ def find_best_split(zeros, crosses):
     zeros = sorted(zeros)
     crosses = sorted(crosses)
     all_points = sorted(zeros + crosses)
-    max_accuracy = best_point = result = left_zeros = 0
-
+    best_point = right_crosses = left_zeros = 0
     right_crosses = len(crosses)
     accuracy = (left_zeros + right_crosses) / (len(zeros) + len(crosses))
+    result = max(all_points) + 1
+    max_accuracy = max( len(zeros) / len(all_points), len(crosses) / len(all_points) )
     if accuracy > max_accuracy:
         best_point = float('-inf')
     for point in all_points:
@@ -36,7 +37,7 @@ def find_best_split(zeros, crosses):
 r1 = [int(x) for x in input('введите массив с ноликами: ').split()]
 r2 = [int(x) for x in input('введите массив с крестиками: ').split()]
 
-if find_best_split(r1, r2)[1] == True:
+if find_best_split(r1, r2)[2] == True:
     print('Линейно разделимы')
 else:
     print('Линейно не разделимы')
