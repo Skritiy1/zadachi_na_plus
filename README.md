@@ -13,7 +13,7 @@
    <img width="662" alt="image" src="https://github.com/user-attachments/assets/90ac2cb0-b48c-4377-bd19-56456e209c10">
 
    
-3. Пояснение к задаче regress
+2. Пояснение к задаче regress
    рассмотрим пример: координаты ноликов [[2, 3], [1, 5], [5, 3]], координаты крестиков [[7, 8], [0,0], [-2, -3]], главная точка - [5, 5], коэф k = 3
 
    Графически это будет выгляить так:
@@ -36,3 +36,14 @@
    Точка [5, 5] относится к ноликам, кол-во ближайших ноликов 2, кол-во ближайших крестиков 1
 
 <img width="750" alt="image" src="https://github.com/user-attachments/assets/b77af9ee-49d5-4f7b-88d2-ae5102251d67">
+
+3. Пояснение к задаче claster
+   на вход идет 2 массива точек, определим прямую сначала для первого, потом для второго используя метод наименьших квадратов
+   Найдем коэф K
+<img width="629" alt="image" src="https://github.com/user-attachments/assets/9033ee20-c14a-4237-8244-34583c6c2fc8" />
+Найдем коэф b
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/5c3dd00f-68c6-49ec-bbf1-3b071ae13634" />
+
+Графически будет выглядить так
+<img width="1457" alt="image" src="https://github.com/user-attachments/assets/deb27b39-95f1-4b88-94ca-bcf952043bff" />
+
