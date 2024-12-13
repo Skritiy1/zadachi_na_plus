@@ -41,9 +41,12 @@
    на вход идет 2 массива точек, определим прямую сначала для первого, потом для второго используя метод наименьших квадратов
    Найдем коэф K
 <img width="629" alt="image" src="https://github.com/user-attachments/assets/9033ee20-c14a-4237-8244-34583c6c2fc8" />
+
 Найдем коэф b
+
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/5c3dd00f-68c6-49ec-bbf1-3b071ae13634" />
 
 Графически будет выглядить так
 <img width="1457" alt="image" src="https://github.com/user-attachments/assets/deb27b39-95f1-4b88-94ca-bcf952043bff" />
 
+формулы брались с сайта https://portal.tpu.ru/SHARED/m/MBB/uchebnaya_rabota/Model/Tab/Interp_app.pdf
